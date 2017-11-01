@@ -1,0 +1,54 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~PCB_Project2.PrjPCB|ReportField=ProjectFullPath~C:\Users\Wujunqiang\Desktop\STM32 电路 - 最终\PCB_Project2.PrjPCB|ReportField=Title~Bill of Materials For Project [PCB_Project2.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~151|ReportField=ReportTime~19:23:55|ReportField=ReportDate~2016/10/22|ReportField=ReportDateTime~2016/10/22 19:23:55|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2016/10/22|ReportField=CurrentTime~19:23:53|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Wujunqiang\Desktop\STM32 电路 - 最终\Drive.SchDoc|ReportField=DocumentName~Drive.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2016/10/22|ReportField=Organization~|ReportField=PageSetup~Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A3|PrintScaleMode=1|ReportField=ProjectName~PCB_Project2.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~PCB_Project2.PrjPCB|ReportField=DataSourceFullPath~C:\Users\Wujunqiang\Desktop\STM32 电路 - 最终\PCB_Project2.PrjPCB
+Power||*1|普通二口接线柱|Head_2|1
+LM2576-5.0||*2|TO-263-5P_2576|LM2576-5.0|1
+SW|开关|*3, *5, *6|KEY|SW|3
+FM|蜂鸣器|*4|FM|FM|1
+Hall||*7|普通五口接线柱|Head_5|1
+104||C1, C3, C4, C7, C8, C11, C12, C13, C14, C17, C18, C19, C20, C21, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43|0805C|Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, Cap, C, C, C, C, Cap, Cap, Cap|26
+47uF  Ta||C2, C6|3216A  Ta|Cap_1|2
+330uF 63V||C5|Cap  电解  8mm - duplicate|Cap_1|1
+100uF  50V||C9|Cap  电解  8mm - duplicate|Cap_1|1
+100uF 50V||C10|Cap  电解  6mm|Cap_1|1
+22pF||C15, C16|0805C|C|2
+4.7uF||C22|0805C|C|1
+100nF||C23, C24, C25, C28|0805C|C|4
+1uF||C26|0805C|C|1
+钽电容|钽电容|C29, C30|3216A  Ta|Cap_2|2
+钽电容  1Uf|钽电容|C31|3216A  Ta|Cap_2|1
+RS1m|[NoValue], 二极管, 二极管|D2, D7, D8|D RS1M|D, D_1, D_1|3
+SS14|二极管|D3|D RS1M|D_1|1
+D_2|发光二极管|D4, D5, D6|0805D|D_2|3
+RS1M  FR107|二极管|D9|D RS1M|D_1|1
+Head_5||J2, J3|HDR1X5|Head_5|2
+Head_3||J4, J5, J6|HDR1X3|Head_3|3
+||J7|HDR1X4|Head_4|1
+GND||J8|HDR1X4|Head_4|1
+5V||J9|HDR1X4|Head_4|1
+Head 10*2||J10|JTAG_20|Head 10*2|1
+L|电感|L1|L  电感  6mm|L|1
+100uH 500Ma|电感|L2|L  电感  6mm|L|1
+NPN|BJT  NPN|Q1|SOT-23R|NPN|1
+IRF540NS|MOS|Q2, Q3, Q4, Q5, Q6, Q7|TO-220AB  MOS|IRF540NS|6
+1K||R1, R2, R4, R7, R9, R10, R12, R16, R20, R21, R32, R42, R48|0805R|R|13
+2.4K 1%||R3|0805R|R|1
+27K 1%||R5|0805R|R|1
+20K||R6|0805R|R|1
+10K||R8, R13, R15, R18, R19, R22, R23, R24, R25, R33, R34|0805R|R|11
+68R||R11, R14, R17, R27, R29, R30, R31, R35, R36, R37, R38, R40, R43, R47|0805R|R|14
+22R||R26, R41|0805R|R|2
+13K||R28|0805R|R|1
+5K1||R39|0805R|R|1
+0.02R 1%  采样电阻||R44|2512R|R|1
+0.002R||R45, R46|2512R|R|2
+10K 1%||R49, R58, R60, R67, R68, R74|0805R|R|6
+1K1%||R51, R54, R62, R66, R70, R73|0805R|R|6
+68R 1%||R52, R64, R71|0805R|R|3
+10K  1%||R55, R56, R57, R59|0805R|R|4
+1K  1%||R63|0805R|R|1
+0||R75, R76|0805R|R|2
+LM2576HV—ADJ||U1|TO-263-5P_2576|LM2576HV—ADJ|1
+ASM1117-3.3|3.3 稳压|U2|AMS1117|ASM1117-3.3|1
+STM32F103RBT6||U3|LQFP64|STM32F103RBT6|1
+IR2136||U4|IR2136S SOIC-28|IR2136|1
+LM324|4运放SOP8芯片|U5|SOP-14N|LM324|1
+8M||Y1|XTAL|XTAL|1

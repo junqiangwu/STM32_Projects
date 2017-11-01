@@ -1,0 +1,27 @@
+------------------------------------------------------------
+Single Pin Net Report for Zhuban.SchDoc
+-- 2016/10/12
+-- 7:48:53
+------------------------------------------------------------
+
+Net BOOT 0 has only one pin (Pin U3-60)
+Net BOOT 1 has only one pin (Pin U3-28)
+Net EN_IR has only one pin (Pin U3-33)
+Net FAULT has only one pin (Pin U3-40)
+Net HALL A has only one pin (Pin U3-37)
+Net HALL B has only one pin (Pin U3-38)
+Net HALL C has only one pin (Pin U3-39)
+Net I_MOTOR_1 has only one pin (Pin U3-22)
+Net I_MOTOR_2 has only one pin (Pin U3-23)
+Net I_MOTOR_3 has only one pin (Pin U3-24)
+Net PA10 has only one pin (Pin J9-3)
+Net PA12 has only one pin (Pin U3-45)
+Net PWM1H has only one pin (Pin U3-41)
+Net PWM1L has only one pin (Pin U3-34)
+Net PWM2H has only one pin (Pin U3-42)
+Net PWM2L has only one pin (Pin U3-35)
+Net PWM3H has only one pin (Pin U3-43)
+Net PWM3L has only one pin (Pin U3-36)
+Net V_M1 has only one pin (Pin U3-15)
+Net V_M2 has only one pin (Pin U3-16)
+Net V_M3 has only one pin (Pin U3-17)
