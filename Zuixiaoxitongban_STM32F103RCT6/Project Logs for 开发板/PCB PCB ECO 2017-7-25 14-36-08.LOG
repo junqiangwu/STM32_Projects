@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=R25-1
+Removed Pin From Net: NetName=PGND Pin=R25-2
+Removed Pin From Net: NetName=3V3 Pin=USART4-1
+Removed Pin From Net: NetName=GND Pin=USART4-2
+Removed Pin From Net: NetName=PC11 Pin=USART4-3
+Removed Pin From Net: NetName=PC10 Pin=USART4-4
+Removed Member From Class: ClassName=原理图 Member=USART4
+Added Component: Designator=6050(HDR1X6- duplicate)
+Added Pin To Net: NetName=3V3 Pin=6050-1
+Added Pin To Net: NetName=GND Pin=6050-2
+Added Pin To Net: NetName=PC12 Pin=6050-3
+Added Pin To Net: NetName=PC11 Pin=6050-4
+Added Member To Class: ClassName=原理图 Member=Component 6050 Header 6

@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=GND Pin=ADC1-5
+Removed Pin From Net: NetName=PA2 Pin=R21-1
+Removed Pin From Net: NetName=PA3 Pin=R22-1
+Removed Pin From Net: NetName=PA2 Pin=R23-1
+Removed Pin From Net: NetName=GND Pin=R23-2
+Removed Pin From Net: NetName=PA3 Pin=R26-1
+Removed Pin From Net: NetName=GND Pin=R26-2
+Removed Member From Class: ClassName=原理图 Member=ADC1
+Removed Member From Class: ClassName=原理图 Member=R21
+Removed Member From Class: ClassName=原理图 Member=R22
+Removed Member From Class: ClassName=原理图 Member=R23
+Removed Member From Class: ClassName=原理图 Member=R26
+Added Component: Designator=ADC(HDR1X3)
+Added Pin To Net: NetName=GND Pin=ADC-1
+Added Pin To Net: NetName=NetADC_2 Pin=ADC-2
+Added Pin To Net: NetName=NetADC_2 Pin=R27-2
+Added Net: Name=NetADC_2
+Added Pin To Net: NetName=NetADC_3 Pin=ADC-3
+Added Pin To Net: NetName=NetADC_3 Pin=R25-2
+Added Net: Name=NetADC_3
+Added Member To Class: ClassName=原理图 Member=Component ADC Head_3
+Added Room: Name=原理图
+Added Room: Name=最小系统

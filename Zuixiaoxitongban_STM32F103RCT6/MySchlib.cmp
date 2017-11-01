@@ -1,0 +1,16 @@
+Component Name : ASM1117-3.3
+
+Part Count : 2
+
+Part : U?
+     Pins - (Normal) : 0
+          Hidden Pins : 
+
+Part : U?
+     Pins - (Normal) : 4
+          GND            1              Passive
+          OUT            2              Passive
+          IN             3              Passive
+          OUT            4              Passive
+          Hidden Pins : 
+

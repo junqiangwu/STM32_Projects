@@ -1,0 +1,12 @@
+Change Component Designator: Old Designator=I2C1/TIM4 New Designator=I1
+Change Component Designator: Old Designator=I2C2 New Designator=I2
+Change Component Designator: Old Designator=R32 New Designator=R36
+Change Component Designator: Old Designator=R33 New Designator=R32
+Change Component Designator: Old Designator=R33 New Designator=R34
+Change Component Designator: Old Designator=R33 New Designator=R35
+Change Component Designator: Old Designator=R33 New Designator=R37
+Change Component Designator: Old Designator=R33 New Designator=R38
+Change Component Designator: Old Designator=R33 New Designator=R39
+Change Component Designator: Old Designator=R33 New Designator=R40
+Change Component Designator: Old Designator=R33 New Designator=R41
+Change Component Designator: Old Designator=TIM8 New Designator=TIM4

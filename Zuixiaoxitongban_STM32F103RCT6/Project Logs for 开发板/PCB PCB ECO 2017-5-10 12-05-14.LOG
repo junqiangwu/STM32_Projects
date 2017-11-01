@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=RELAY_1IN Pin=ls1-1
+Added Pin To Net: NetName=RELAY_2IN Pin=ls1-3
+Added Pin To Net: NetName=RELAY_3IN Pin=ls1-5

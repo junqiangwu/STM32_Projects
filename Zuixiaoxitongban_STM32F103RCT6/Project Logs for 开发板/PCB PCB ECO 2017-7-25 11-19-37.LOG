@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=3V3 Pin=P5-15
+Removed Pin From Net: NetName=3V3 Pin=R33-1
+Removed Pin From Net: NetName=PA2 Pin=R33-2
+Removed Pin From Net: NetName=3V3 Pin=R39-1
+Removed Pin From Net: NetName=PA3 Pin=R39-2
+Removed Pin From Net: NetName=3V3 Pin=TIM2-2
+Removed Pin From Net: NetName=3V3 Pin=U3-15
+Removed Member From Class: ClassName=原理图 Member=R33
+Removed Member From Class: ClassName=原理图 Member=R39
+Added Pin To Net: NetName=PA1 Pin=P5-15
+Added Pin To Net: NetName=PA1 Pin=TIM2-2
+Added Pin To Net: NetName=PA1 Pin=U3-15
+Added Net: Name=PA1

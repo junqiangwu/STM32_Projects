@@ -1,0 +1,16 @@
+Change Component Designator: Old Designator=BOARD_POWER New Designator=BOARD_POWER1
+Change Component Designator: Old Designator=D1 New Designator=D2
+Change Component Designator: Old Designator=D1 New Designator=D3
+Change Component Designator: Old Designator=D1 New Designator=D4
+Change Component Designator: Old Designator=D1 New Designator=D5
+Change Component Designator: Old Designator=D1 New Designator=D6
+Change Component Designator: Old Designator=D1 New Designator=D7
+Change Component Designator: Old Designator=Q1 New Designator=Q2
+Change Component Designator: Old Designator=Q1 New Designator=Q3
+Change Component Designator: Old Designator=Q1 New Designator=Q4
+Change Component Designator: Old Designator=Q1 New Designator=Q5
+Change Component Designator: Old Designator=Q1 New Designator=Q6
+Change Component Designator: Old Designator=Relay1 New Designator=Relay4
+Change Component Designator: Old Designator=Relay1 New Designator=Relay5
+Change Component Designator: Old Designator=Relay1 New Designator=Relay6
+Change Component Designator: Old Designator=RELAY_POWER New Designator=RELAY_POWER1

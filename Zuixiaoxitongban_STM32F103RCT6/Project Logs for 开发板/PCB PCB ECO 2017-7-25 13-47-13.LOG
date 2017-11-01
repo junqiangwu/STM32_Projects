@@ -1,0 +1,105 @@
+Removed Pin From Net: NetName=5V Pin=C1-1
+Removed Pin From Net: NetName=12V Pin=C3-2
+Removed Pin From Net: NetName=12V Pin=C4-2
+Removed Pin From Net: NetName=PGND Pin=C5-1
+Removed Pin From Net: NetName=12V Pin=C5-2
+Removed Pin From Net: NetName=PGND Pin=C7-1
+Removed Pin From Net: NetName=PGND Pin=C8-1
+Removed Pin From Net: NetName=5V Pin=L1-2
+Removed Pin From Net: NetName=12V Pin=R14-2
+Removed Pin From Net: NetName=5V Pin=R15-2
+Removed Pin From Net: NetName=PGND Pin=R16-1
+Removed Pin From Net: NetName=PGND Pin=R17-1
+Removed Pin From Net: NetName=PGND Pin=R18-1
+Removed Pin From Net: NetName=12V Pin=U1-2
+Removed Pin From Net: NetName=PGND Pin=U1-7
+Removed Member From Class: ClassName=原理图 Member=C9
+Removed Member From Class: ClassName=原理图 Member=C10
+Removed Member From Class: ClassName=原理图 Member=C11
+Removed Member From Class: ClassName=原理图 Member=C12
+Removed Member From Class: ClassName=原理图 Member=R31
+Removed Member From Class: ClassName=原理图 Member=R36
+Removed Member From Class: ClassName=原理图 Member=R37
+Removed Member From Class: ClassName=原理图 Member=R38
+Removed Member From Class: ClassName=原理图 Member=R41
+Change Component DesignItemId : Designator=C1 Old DesignItemId=Cap Pol1 New DesignItemId=Cap_2
+Change Component DesignItemId : Designator=D1 Old DesignItemId=Diode New DesignItemId=D
+Change Component DesignItemId : Designator=L1 Old DesignItemId=Inductor New DesignItemId=L
+Change Component DesignItemId : Designator=U1 Old DesignItemId=TPS54331 New DesignItemId=TPS5430
+Change Component Footprint: Designator=C1 Old Footprint=6032C New Footprint=6032C  TA
+Change Component Footprint: Designator=C2 Old Footprint=CAP-MLCC-0603 New Footprint=0603- C
+Change Component Footprint: Designator=C3 Old Footprint=CAP-MLCC-0603 New Footprint=0805C
+Change Component Footprint: Designator=L1 Old Footprint=CD74 New Footprint=CD_54
+Change Component Footprint: Designator=D1 Old Footprint=SS34 New Footprint=D RS1M
+Change Component Footprint: Designator=U1 Old Footprint=TPS5430 New Footprint=SOIC-8piN
+Change Component Comment : Designator=C3 Old Comment=Cap New Comment=10uf
+Change Component Comment : Designator=C2 Old Comment=Cap New Comment=104
+Change Component Comment : Designator=C1 Old Comment=Cap Pol1 New Comment=107UF
+Change Component Comment : Designator=L1 Old Comment=Inductor New Comment=L
+Change Component Comment : Designator=D1 Old Comment=SS54 New Comment=D
+Change Component Comment : Designator=U1 Old Comment=TPS54331 New Comment=TPS5430
+Change Component Designator: OldDesignator=ADC NewDesignator=ADC1
+Change Component Designator: OldDesignator=C9 NewDesignator=C5
+Change Component Designator: OldDesignator=C10 NewDesignator=C6
+Change Component Designator: OldDesignator=C11 NewDesignator=C7
+Change Component Designator: OldDesignator=C12 NewDesignator=C8
+Change Component Designator: OldDesignator=C13 NewDesignator=C9
+Change Component Designator: OldDesignator=C14 NewDesignator=C10
+Change Component Designator: OldDesignator=C15 NewDesignator=C11
+Change Component Designator: OldDesignator=C16 NewDesignator=C12
+Change Component Designator: OldDesignator=C17 NewDesignator=C13
+Change Component Designator: OldDesignator=C18 NewDesignator=C14
+Change Component Designator: OldDesignator=C19 NewDesignator=C15
+Change Component Designator: OldDesignator=C20 NewDesignator=C16
+Change Component Designator: OldDesignator=I2C1/TIM4 NewDesignator=I1
+Change Component Designator: OldDesignator=I2C2 NewDesignator=I2
+Change Component Designator: OldDesignator=LED7 NewDesignator=LED1
+Change Component Designator: OldDesignator=LED8 NewDesignator=LED2
+Change Component Designator: OldDesignator=LED9 NewDesignator=LED3
+Change Component Designator: OldDesignator=P5 NewDesignator=P4
+Change Component Designator: OldDesignator=P6 NewDesignator=P5
+Change Component Designator: OldDesignator=R3 NewDesignator=R1
+Change Component Designator: OldDesignator=R19 NewDesignator=R4
+Change Component Designator: OldDesignator=R20 NewDesignator=R5
+Change Component Designator: OldDesignator=R24 NewDesignator=R6
+Change Component Designator: OldDesignator=R25 NewDesignator=R7
+Change Component Designator: OldDesignator=R27 NewDesignator=R9
+Change Component Designator: OldDesignator=R28 NewDesignator=R8
+Change Component Designator: OldDesignator=R29 NewDesignator=R10
+Change Component Designator: OldDesignator=R30 NewDesignator=R13
+Change Component Designator: OldDesignator=R31 NewDesignator=R14
+Change Component Designator: OldDesignator=R32 NewDesignator=R12
+Change Component Designator: OldDesignator=R35 NewDesignator=R11
+Change Component Designator: OldDesignator=R36 NewDesignator=R15
+Change Component Designator: OldDesignator=R37 NewDesignator=R16
+Change Component Designator: OldDesignator=R38 NewDesignator=R17
+Change Component Designator: OldDesignator=R41 NewDesignator=R18
+Change Component Designator: OldDesignator=R42 NewDesignator=R19
+Change Component Designator: OldDesignator=R43 NewDesignator=R20
+Change Component Designator: OldDesignator=R44 NewDesignator=R21
+Change Component Designator: OldDesignator=R45 NewDesignator=R22
+Change Component Designator: OldDesignator=R46 NewDesignator=R23
+Change Component Designator: OldDesignator=R47 NewDesignator=R24
+Added Component: Designator=R2(0603-R)
+Added Component: Designator=R3(0603-R)
+Added Pin To Net: NetName=PGND Pin=R3-2
+Added Pin To Net: NetName=PGND Pin=U1-6
+Change Net Name : Old Net Name=NetADC_2 New Net Name=NetADC1_2
+Change Net Name : Old Net Name=NetADC_3 New Net Name=NetADC1_3
+Change Net Name : Old Net Name=NetLED7_A New Net Name=NetLED1_A
+Change Net Name : Old Net Name=NetLED8_A New Net Name=NetLED2_A
+Change Net Name : Old Net Name=NetLED9_A New Net Name=NetLED3_A
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=R3-1
+Added Pin To Net: NetName=NetR2_1 Pin=U1-4
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=VCC-5 Pin=C1-1
+Added Pin To Net: NetName=VCC-5 Pin=L1-2
+Added Pin To Net: NetName=VCC-5 Pin=R2-2
+Added Net: Name=VCC-5
+Added Pin To Net: NetName=VCC-15 Pin=C3-2
+Added Pin To Net: NetName=VCC-15 Pin=C4-2
+Added Pin To Net: NetName=VCC-15 Pin=U1-7
+Added Net: Name=VCC-15
+Added Member To Class: ClassName=原理图 Member=Component R2 10K
+Added Member To Class: ClassName=原理图 Member=Component R3 3.24K
