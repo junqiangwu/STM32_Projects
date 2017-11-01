@@ -1,0 +1,11 @@
+#!gbuild
+[Project]
+STM32_FOC_PMSM\inc\STM32F10x_MCconf.h
+STM32_FOC_PMSM\inc\MC_State_Observer_param.h
+STM32_FOC_PMSM\inc\MC_Control_Param.h
+STM32_FOC_PMSM\inc\MC_encoder_param.h
+STM32_FOC_PMSM\inc\MC_hall_prm.h
+STM32_FOC_PMSM\inc\MC_PMSM_motor_param.h
+STM32_FOC_PMSM\inc\MC_pwm_1shunt_prm.h
+STM32_FOC_PMSM\inc\MC_pwm_3shunt_prm.h
+STM32_FOC_PMSM\inc\MC_pwm_ics_prm.h

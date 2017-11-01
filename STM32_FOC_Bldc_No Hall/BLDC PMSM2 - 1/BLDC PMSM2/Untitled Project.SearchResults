@@ -1,0 +1,5 @@
+---- PAIA_IA Matches (1 in 1 files) ----
+STM103REG.h (head):41
+#define PAIA_IA					GPIO_Pin_4
+#define PAIA_IB					GPIO_Pin_5
+#define PAIA_ITOTAL 			GPIO_Pin_6

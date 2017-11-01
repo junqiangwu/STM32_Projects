@@ -1,0 +1,64 @@
+*** Creating Trace Output File '.\Obj\BOOT_FLASH.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\stm32f10x_vector.o"'
+### List of Objects: adding '".\obj\cortexm3_macro.o"'
+### List of Objects: adding '".\obj\stm32f10x_it.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\mc_clarke_park.o"'
+### List of Objects: adding '".\obj\mc_foc_drive.o"'
+### List of Objects: adding '".\obj\mc_motorcontrol_layer.o"'
+### List of Objects: adding '".\obj\mc_globals.o"'
+### List of Objects: adding '".\obj\mc_pid_regulators.o"'
+### List of Objects: adding '".\obj\mc_state_observer_interface.o"'
+### List of Objects: adding '".\obj\mc_keys.o"'
+### List of Objects: adding '".\obj\mc_display.o"'
+### List of Objects: adding '".\obj\stm32f10x_encoder.o"'
+### List of Objects: adding '".\obj\stm32f10x_hall.o"'
+### List of Objects: adding '".\obj\stm32f10x_timebase.o"'
+### List of Objects: adding '".\obj\stm32f10x_mcdac.o"'
+### List of Objects: adding '".\obj\stm32f10x_svpwm_3shunt.o"'
+### List of Objects: adding '".\obj\stm32f10x_svpwm_ics.o"'
+### List of Objects: adding '".\obj\stm32f10x_svpwm_1shunt.o"'
+### List of Objects: adding '".\obj\stm32_2.8_lcd.o"'
+### List of Objects: adding '".\obj\key.o"'
+### List of Objects: adding '".\obj\display.o"'
+### List of Objects: adding '".\lib\MC_FOC_Methods_lib.lib"'
+### List of Objects: adding '".\lib\MC_State_Observer_lib.lib"'
+### List of Objects: adding '".\obj\stm32f10x_wwdg.o"'
+### List of Objects: adding '".\obj\stm32f10x_adc.o"'
+### List of Objects: adding '".\obj\stm32f10x_bkp.o"'
+### List of Objects: adding '".\obj\stm32f10x_can.o"'
+### List of Objects: adding '".\obj\stm32f10x_dma.o"'
+### List of Objects: adding '".\obj\stm32f10x_exti.o"'
+### List of Objects: adding '".\obj\stm32f10x_flash.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\stm32f10x_i2c.o"'
+### List of Objects: adding '".\obj\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\obj\stm32f10x_lib.o"'
+### List of Objects: adding '".\obj\stm32f10x_nvic.o"'
+### List of Objects: adding '".\obj\stm32f10x_pwr.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_rtc.o"'
+### List of Objects: adding '".\obj\stm32f10x_spi.o"'
+### List of Objects: adding '".\obj\stm32f10x_systick.o"'
+### List of Objects: adding '".\obj\stm32f10x_tim.o"'
+### List of Objects: adding '".\obj\stm32f10x_usart.o"'
+### List of Objects: adding '".\obj\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '".\obj\stm32f10x_fsmc.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\stm32f10x_vector.o" ".\obj\cortexm3_macro.o" ".\obj\stm32f10x_it.o" ".\obj\main.o" ".\obj\mc_clarke_park.o" ".\obj\mc_foc_drive.o" ".\obj\mc_motorcontrol_layer.o" ".\obj\mc_globals.o" ".\obj\mc_pid_regulators.o" ".\obj\mc_state_observer_interface.o" ".\obj\mc_keys.o" ".\obj\mc_display.o" ".\obj\stm32f10x_encoder.o" ".\obj\stm32f10x_hall.o" ".\obj\stm32f10x_timebase.o" ".\obj\stm32f10x_mcdac.o" ".\obj\stm32f10x_svpwm_3shunt.o" ".\obj\stm32f10x_svpwm_ics.o" ".\obj\stm32f10x_svpwm_1shunt.o" ".\obj\stm32_2.8_lcd.o" ".\obj\key.o" ".\obj\display.o" ".\lib\MC_FOC_Methods_lib.lib" ".\lib\MC_State_Observer_lib.lib" ".\obj\stm32f10x_wwdg.o" ".\obj\stm32f10x_adc.o" ".\obj\stm32f10x_bkp.o" ".\obj\stm32f10x_can.o" ".\obj\stm32f10x_dma.o" ".\obj\stm32f10x_exti.o" ".\obj\stm32f10x_flash.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_i2c.o" ".\obj\stm32f10x_iwdg.o" ".\obj\stm32f10x_lib.o" ".\obj\stm32f10x_nvic.o" ".\obj\stm32f10x_pwr.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_rtc.o" ".\obj\stm32f10x_spi.o" ".\obj\stm32f10x_systick.o" ".\obj\stm32f10x_tim.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_dbgmcu.o" ".\obj\stm32f10x_fsmc.o" "C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB" --library_type=microlib --feedback ".\Obj\BOOT_FLASH.fed" 
+--strict --scatter ".\Obj\BOOT_FLASH.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\BOOT_FLASH.map" -o ".\Obj\BOOT_FLASH.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\BOOT_FLASH.axf'
+### ADS-LD Command File: '.\Obj\BOOT_FLASH.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\BOOT_FLASH.lnp', Handle=0x00000170
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\BOOT_FLASH.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

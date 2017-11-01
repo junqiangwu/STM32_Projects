@@ -1,0 +1,47 @@
+#!gbuild
+[Program]
+	-object_dir=objs\STM32_PMSM_FOC
+	-Olink
+	-memory
+	-gsize
+	--no_commons
+	:sourceDir=../lib
+	-Osize
+STM32_FOC_PMSM\stm32f10x_it.c
+	-Ospeed
+main.c
+	-Osize
+MC_FOC_Drive.c
+	-Ospeed
+MC_PID_regulators.c
+	-Ospeed
+MC_State_Observer_Interface.c
+	-Osize
+MC_MotorControl_Layer.c
+	-Osize
+MC_Keys.c
+	-Osize
+MC_Globals.c
+	-Osize
+MC_Display.c
+	-Osize
+MC_Clarke_Park.c
+	-Ospeed
+stm32f10x_hall.c
+stm32f10x_encoder.c
+stm32f10x_Timebase.c
+stm32f10x_svpwm_ics.c
+	-Ospeed
+stm32f10x_svpwm_3shunt.c
+	-Ospeed
+stm32f10x_svpwm_1shunt.c
+	-Ospeed
+stm32f10x_lcd.c
+stm32f10x_MCdac.c
+cortexm3_macro_asm.arm
+stm32f10x_vector.c
+cortexm3_macro.c
+tgt\standalone_romrun.ld
+MC_State_Observer_lib.a
+FOC_methods_lib.a
+lib\STM32F10XFWLIB.gpj		[Library]

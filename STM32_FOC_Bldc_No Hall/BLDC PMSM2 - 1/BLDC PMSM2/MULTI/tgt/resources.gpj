@@ -1,0 +1,8 @@
+#!gbuild
+#component target_resources
+[Project]
+default.con
+resource_readme.txt
+standalone_ram.ld
+standalone_romcopy.ld
+standalone_romrun.ld

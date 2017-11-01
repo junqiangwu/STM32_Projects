@@ -1,0 +1,25 @@
+	.text
+	.thumb2
+	.align 2
+	
+__SVC::
+	svc 0x1
+	bx lr
+	.endf	__SVC
+
+	
+__ISB::
+	isb
+	bx lr
+	.endf	__ISB
+	
+__DSB::
+	dsb
+	bx lr
+	.endf	__DSB
+	
+__DMB::
+	dmb
+	clrex
+	bx lr
+	.endf	__DMB

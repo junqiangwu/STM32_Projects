@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\STM32F10XFWLIB\inc -I..\inc -I..\ -I..\Head
+-I C:\Keil_v5\ARM\RV31\INC
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\Inc\ST\STM32F10x
+-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\obj\stm32f10x_systick.o --omf_browse .\obj\stm32f10x_systick.crf --depend .\obj\stm32f10x_systick.d --feedback ".\Obj\BOOT_FLASH.fed" "..\..\STM32F10XFWLIB\src\stm32f10x_systick.c"

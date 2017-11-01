@@ -1,0 +1,91 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (BOOT_FLASH), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(RVMDK),0,0,0
+GRPOPT 2,(Source),1,0,0
+GRPOPT 3,(Parameters .h files),1,0,0
+GRPOPT 4,(Lib),0,0,0
+GRPOPT 5,(STM32F10XFWLIB),0,0,0
+GRPOPT 6,(Doc),1,0,0
+
+OPTFFF 1,1,2,0,0,0,0,0,<.\stm32f10x_vector.s><stm32f10x_vector.s> 
+OPTFFF 1,2,2,0,0,0,0,0,<.\cortexm3_macro.s><cortexm3_macro.s> 
+OPTFFF 2,3,1,0,0,0,0,0,<..\stm32f10x_it.c><stm32f10x_it.c> 
+OPTFFF 2,4,1,0,0,0,0,0,<..\src\main.c><main.c> 
+OPTFFF 2,5,1,0,0,0,0,0,<..\src\MC_Clarke_Park.c><MC_Clarke_Park.c> 
+OPTFFF 2,6,1,0,0,0,0,0,<..\src\MC_FOC_Drive.c><MC_FOC_Drive.c> 
+OPTFFF 2,7,1,0,0,0,0,0,<..\src\MC_MotorControl_Layer.c><MC_MotorControl_Layer.c> 
+OPTFFF 2,8,1,0,0,0,0,0,<..\src\MC_Globals.c><MC_Globals.c> 
+OPTFFF 2,9,1,0,0,0,0,0,<..\src\MC_PID_regulators.c><MC_PID_regulators.c> 
+OPTFFF 2,10,1,0,0,0,0,0,<..\src\MC_State_Observer_Interface.c><MC_State_Observer_Interface.c> 
+OPTFFF 2,11,1,0,0,0,0,0,<..\src\MC_Keys.c><MC_Keys.c> 
+OPTFFF 2,12,1,0,0,0,0,0,<..\src\MC_Display.c><MC_Display.c> 
+OPTFFF 2,13,1,0,0,0,0,0,<..\src\stm32f10x_encoder.c><stm32f10x_encoder.c> 
+OPTFFF 2,14,1,50331648,0,0,0,0,<..\src\stm32f10x_hall.c><stm32f10x_hall.c> 
+OPTFFF 2,15,1,654311424,0,0,0,0,<..\src\stm32f10x_Timebase.c><stm32f10x_Timebase.c> 
+OPTFFF 2,16,1,486539266,0,325,334,0,<..\src\stm32f10x_lcd.c><stm32f10x_lcd.c> { 44,0,0,0,2,0,0,0,3,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,0,0,0,0,0,0,0,0,101,3,0,0,70,1,0,0 }
+OPTFFF 2,17,1,0,0,0,0,0,<..\src\stm32f10x_MCdac.c><stm32f10x_MCdac.c> 
+OPTFFF 2,18,1,0,0,0,0,0,<..\src\stm32f10x_svpwm_3shunt.c><stm32f10x_svpwm_3shunt.c> 
+OPTFFF 2,19,1,0,0,0,0,0,<..\src\stm32f10x_svpwm_ics.c><stm32f10x_svpwm_ics.c> 
+OPTFFF 2,20,1,0,0,0,0,0,<..\src\stm32f10x_svpwm_1shunt.c><stm32f10x_svpwm_1shunt.c> 
+OPTFFF 3,21,5,0,0,0,0,0,<..\inc\STM32F10x_MCconf.h><STM32F10x_MCconf.h> 
+OPTFFF 3,22,5,0,0,0,0,0,<..\inc\MC_Control_Param.h><MC_Control_Param.h> 
+OPTFFF 3,23,5,687865856,0,0,0,0,<..\inc\MC_encoder_param.h><MC_encoder_param.h> 
+OPTFFF 3,24,5,0,0,0,0,0,<..\inc\MC_hall_prm.h><MC_hall_prm.h> 
+OPTFFF 3,25,5,771751936,0,0,0,0,<..\inc\MC_PMSM_motor_param.h><MC_PMSM_motor_param.h> 
+OPTFFF 3,26,5,0,0,0,0,0,<..\inc\MC_State_Observer_param.h><MC_State_Observer_param.h> 
+OPTFFF 3,27,5,0,0,0,0,0,<..\inc\MC_pwm_1shunt_prm.h><MC_pwm_1shunt_prm.h> 
+OPTFFF 3,28,5,0,0,0,0,0,<..\inc\MC_pwm_3shunt_prm.h><MC_pwm_3shunt_prm.h> 
+OPTFFF 4,29,4,0,0,0,0,0,<.\lib\MC_FOC_Methods_lib.lib><MC_FOC_Methods_lib.lib> 
+OPTFFF 4,30,4,0,0,0,0,0,<.\lib\MC_State_Observer_lib.lib><MC_State_Observer_lib.lib> 
+OPTFFF 5,31,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_wwdg.c><stm32f10x_wwdg.c> 
+OPTFFF 5,32,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_adc.c><stm32f10x_adc.c> 
+OPTFFF 5,33,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_bkp.c><stm32f10x_bkp.c> 
+OPTFFF 5,34,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_can.c><stm32f10x_can.c> 
+OPTFFF 5,35,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_dma.c><stm32f10x_dma.c> 
+OPTFFF 5,36,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_exti.c><stm32f10x_exti.c> 
+OPTFFF 5,37,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_flash.c><stm32f10x_flash.c> 
+OPTFFF 5,38,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_gpio.c><stm32f10x_gpio.c> 
+OPTFFF 5,39,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_i2c.c><stm32f10x_i2c.c> 
+OPTFFF 5,40,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_iwdg.c><stm32f10x_iwdg.c> 
+OPTFFF 5,41,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_lib.c><stm32f10x_lib.c> 
+OPTFFF 5,42,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_nvic.c><stm32f10x_nvic.c> 
+OPTFFF 5,43,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_pwr.c><stm32f10x_pwr.c> 
+OPTFFF 5,44,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_rcc.c><stm32f10x_rcc.c> 
+OPTFFF 5,45,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_rtc.c><stm32f10x_rtc.c> 
+OPTFFF 5,46,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_spi.c><stm32f10x_spi.c> 
+OPTFFF 5,47,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_systick.c><stm32f10x_systick.c> 
+OPTFFF 5,48,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_tim.c><stm32f10x_tim.c> 
+OPTFFF 5,49,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_usart.c><stm32f10x_usart.c> 
+OPTFFF 5,50,1,0,0,0,0,0,<..\..\STM32F10XFWLIB\src\stm32f10x_dbgmcu.c><stm32f10x_dbgmcu.c> 
+OPTFFF 6,51,5,0,0,0,0,0,<.\readme.txt><readme.txt> 
+
+
+TARGOPT 1, (BOOT_FLASH)
+ ADSCLK=8000000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<.\List\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 0
+  OPTDL (SARMCM3.DLL)()(DARMSTM.DLL)(-pSTM32F103VB)(SARMCM3.DLL)()(TARMSTM.DLL)(-pSTM32F103VB)
+  OPTDBG 49150,1,()()()()()()()()()(.\STM3210B-EVAL_FLASH.ini) (BIN\UL2CM3.DLL)()()()
+  OPTKEY 0,(UL2CM3)(-UV0298C8E -O142 -S0 -C0 -N00("ARM CoreSight JTAG-DP") -D00(3BA00477) -L00(4) -N01("Unknown JTAG device") -D01(16410041) -L01(5) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO15 -FD20000000 -FC800 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000)
+  OPTDF 0x0
+  OPTLE <>
+  OPTLC <>
+EndOpt
+

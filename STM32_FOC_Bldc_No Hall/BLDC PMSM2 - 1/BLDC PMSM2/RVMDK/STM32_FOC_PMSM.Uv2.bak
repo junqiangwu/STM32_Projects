@@ -1,0 +1,274 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+Target (BOOT_FLASH), 0x0004 // Tools: 'ARM-ADS'
+
+Group (RVMDK)
+Group (Source)
+Group (Parameters .h files)
+Group (Lib)
+Group (STM32F10XFWLIB)
+Group (Doc)
+
+File 1,2,<.\stm32f10x_vector.s><stm32f10x_vector.s>
+File 1,2,<.\cortexm3_macro.s><cortexm3_macro.s>
+File 2,1,<..\stm32f10x_it.c><stm32f10x_it.c>
+File 2,1,<..\src\main.c><main.c>
+File 2,1,<..\src\MC_Clarke_Park.c><MC_Clarke_Park.c>
+File 2,1,<..\src\MC_FOC_Drive.c><MC_FOC_Drive.c>
+File 2,1,<..\src\MC_MotorControl_Layer.c><MC_MotorControl_Layer.c>
+File 2,1,<..\src\MC_Globals.c><MC_Globals.c>
+File 2,1,<..\src\MC_PID_regulators.c><MC_PID_regulators.c>
+File 2,1,<..\src\MC_State_Observer_Interface.c><MC_State_Observer_Interface.c>
+File 2,1,<..\src\MC_Keys.c><MC_Keys.c>
+File 2,1,<..\src\MC_Display.c><MC_Display.c>
+File 2,1,<..\src\stm32f10x_encoder.c><stm32f10x_encoder.c>
+File 2,1,<..\src\stm32f10x_hall.c><stm32f10x_hall.c>
+File 2,1,<..\src\stm32f10x_Timebase.c><stm32f10x_Timebase.c>
+File 2,1,<..\src\stm32f10x_lcd.c><stm32f10x_lcd.c>
+File 2,1,<..\src\stm32f10x_MCdac.c><stm32f10x_MCdac.c>
+File 2,1,<..\src\stm32f10x_svpwm_3shunt.c><stm32f10x_svpwm_3shunt.c>
+File 2,1,<..\src\stm32f10x_svpwm_ics.c><stm32f10x_svpwm_ics.c>
+File 2,1,<..\src\stm32f10x_svpwm_1shunt.c><stm32f10x_svpwm_1shunt.c>
+File 3,5,<..\inc\STM32F10x_MCconf.h><STM32F10x_MCconf.h>
+File 3,5,<..\inc\MC_Control_Param.h><MC_Control_Param.h>
+File 3,5,<..\inc\MC_encoder_param.h><MC_encoder_param.h>
+File 3,5,<..\inc\MC_hall_prm.h><MC_hall_prm.h>
+File 3,5,<..\inc\MC_PMSM_motor_param.h><MC_PMSM_motor_param.h>
+File 3,5,<..\inc\MC_State_Observer_param.h><MC_State_Observer_param.h>
+File 3,5,<..\inc\MC_pwm_1shunt_prm.h><MC_pwm_1shunt_prm.h>
+File 3,5,<..\inc\MC_pwm_3shunt_prm.h><MC_pwm_3shunt_prm.h>
+File 4,4,<.\lib\MC_FOC_Methods_lib.lib><MC_FOC_Methods_lib.lib>
+File 4,4,<.\lib\MC_State_Observer_lib.lib><MC_State_Observer_lib.lib>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_wwdg.c><stm32f10x_wwdg.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_adc.c><stm32f10x_adc.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_bkp.c><stm32f10x_bkp.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_can.c><stm32f10x_can.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_dma.c><stm32f10x_dma.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_exti.c><stm32f10x_exti.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_flash.c><stm32f10x_flash.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_gpio.c><stm32f10x_gpio.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_i2c.c><stm32f10x_i2c.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_iwdg.c><stm32f10x_iwdg.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_lib.c><stm32f10x_lib.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_nvic.c><stm32f10x_nvic.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_pwr.c><stm32f10x_pwr.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_rcc.c><stm32f10x_rcc.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_rtc.c><stm32f10x_rtc.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_spi.c><stm32f10x_spi.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_systick.c><stm32f10x_systick.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_tim.c><stm32f10x_tim.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_usart.c><stm32f10x_usart.c>
+File 5,1,<..\..\STM32F10XFWLIB\src\stm32f10x_dbgmcu.c><stm32f10x_dbgmcu.c>
+File 6,5,<.\readme.txt><readme.txt>
+
+
+Options 1,0,0  // Target 'BOOT_FLASH'
+ Device (STM32F103VB)
+ Vendor (STMicroelectronics)
+ Cpu (IRAM(0x20000000-0x20004FFF) IROM(0x8000000-0x801FFFF) CLOCK(8000000) CPUTYPE("Cortex-M3"))
+ FlashUt ()
+ StupF ("STARTUP\ST\STM32F10x.s" ("STM32 Startup Code"))
+ FlashDR (UL2CM3(-O14 -S0 -C0 -N00("ARM Cortex-M3") -D00(1BA00477) -L00(4) -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000))
+ DevID (4223)
+ Rgf (stm32f10x_lib.h)
+ Mem ()
+ C ()
+ A ()
+ RL ()
+ OH ()
+ DBC_IFX ()
+ DBC_CMS ()
+ DBC_AMS ()
+ DBC_LMS ()
+ UseEnv=0
+ EnvBin ()
+ EnvInc ()
+ EnvLib ()
+ EnvReg (ÿST\STM32F10x\)
+ OrgReg (ÿST\STM32F10x\)
+ TgStat=16
+ OutDir (.\Obj\)
+ OutName (BOOT_FLASH)
+ GenApp=1
+ GenLib=0
+ GenHex=0
+ Debug=1
+ Browse=1
+ LstDir (.\List\)
+ HexSel=1
+ MG32K=0
+ TGMORE=0
+ RunUsr 0 0 <>
+ RunUsr 1 0 <>
+ BrunUsr 0 0 <>
+ BrunUsr 1 0 <>
+ CrunUsr 0 0 <>
+ CrunUsr 1 0 <>
+ SVCSID <>
+ GLFLAGS=1790
+ ADSFLGA { 243,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ACPUTYP ("Cortex-M3")
+ RVDEV ()
+ ADSTFLGA { 0,12,0,18,99,0,1,66,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCMADSOCM { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCMADSIRAM { 0,0,0,0,32,0,80,0,0 }
+ OCMADSIROM { 1,0,0,0,8,0,0,2,0 }
+ OCMADSXRAM { 0,0,0,0,0,0,0,0,0 }
+ OCR_RVCT { 1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,8,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,80,0,0,0,0,0,0,0,0,0,0,0 }
+ RV_STAVEC ()
+ ADSCCFLG { 17,32,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN (VECT_TAB_FLASH)
+ ADSCUDEF ()
+ ADSCINCD (..\..\STM32F10XFWLIB\inc; ..\inc; ..\)
+ ADSASFLG { 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSAMISC ()
+ ADSADEFN ()
+ ADSAUDEF ()
+ ADSAINCD ()
+ PropFld { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=1
+ AlwaysBuild=0
+ GenAsm=0
+ AsmAsm=0
+ PublicsOnly=0
+ StopCode=3
+ CustArgs ()
+ LibMods ()
+ ADSLDFG { 17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSLDTA (0x08000000)
+ ADSLDDA (0x20000000)
+ ADSLDSC ()
+ ADSLDIB ()
+ ADSLDIC ()
+ ADSLDMC ()
+ ADSLDIF ()
+ ADSLDDW ()
+  OPTDL (SARMCM3.DLL)()(DARMSTM.DLL)(-pSTM32F103VB)(SARMCM3.DLL)()(TARMSTM.DLL)(-pSTM32F103VB)
+  OPTDBG 49150,1,()()()()()()()()()(.\STM3210B-EVAL_FLASH.ini) (BIN\UL2CM3.DLL)()()()
+ FLASH1 { 9,0,0,0,1,0,0,0,1,16,0,0,0,0,0,0,0,0,0,0 }
+ FLASH2 (BIN\UL2CM3.DLL)
+ FLASH3 ("" ())
+ FLASH4 ()
+EndOpt
+
+Options 1,2,3  // File 'stm32f10x_it.c'
+ PropFld { 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=2
+ AlwaysBuild=2
+ GenAsm=2
+ AsmAsm=2
+ PublicsOnly=2
+ StopCode=11
+ CustArgs ()
+ LibMods ()
+ ADSCCFLG { 2,82,85,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN ()
+ ADSCUDEF ()
+ ADSCINCD ()
+EndOpt
+
+Options 1,2,5  // File 'MC_Clarke_Park.c'
+ PropFld { 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=2
+ AlwaysBuild=2
+ GenAsm=2
+ AsmAsm=2
+ PublicsOnly=2
+ StopCode=11
+ CustArgs ()
+ LibMods ()
+ ADSCCFLG { 2,82,85,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN ()
+ ADSCUDEF ()
+ ADSCINCD ()
+EndOpt
+
+Options 1,2,6  // File 'MC_FOC_Drive.c'
+ PropFld { 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=2
+ AlwaysBuild=2
+ GenAsm=2
+ AsmAsm=2
+ PublicsOnly=2
+ StopCode=11
+ CustArgs ()
+ LibMods ()
+ ADSCCFLG { 2,82,85,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN ()
+ ADSCUDEF ()
+ ADSCINCD ()
+EndOpt
+
+Options 1,2,9  // File 'MC_PID_regulators.c'
+ PropFld { 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=2
+ AlwaysBuild=2
+ GenAsm=2
+ AsmAsm=2
+ PublicsOnly=2
+ StopCode=11
+ CustArgs ()
+ LibMods ()
+ ADSCCFLG { 2,82,85,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN ()
+ ADSCUDEF ()
+ ADSCINCD ()
+EndOpt
+
+Options 1,2,18  // File 'stm32f10x_svpwm_3shunt.c'
+ PropFld { 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=2
+ AlwaysBuild=2
+ GenAsm=2
+ AsmAsm=2
+ PublicsOnly=2
+ StopCode=11
+ CustArgs ()
+ LibMods ()
+ ADSCCFLG { 2,82,85,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN ()
+ ADSCUDEF ()
+ ADSCINCD ()
+EndOpt
+
+Options 1,2,19  // File 'stm32f10x_svpwm_ics.c'
+ PropFld { 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=2
+ AlwaysBuild=2
+ GenAsm=2
+ AsmAsm=2
+ PublicsOnly=2
+ StopCode=11
+ CustArgs ()
+ LibMods ()
+ ADSCCFLG { 2,82,85,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN ()
+ ADSCUDEF ()
+ ADSCINCD ()
+EndOpt
+
+Options 1,2,20  // File 'stm32f10x_svpwm_1shunt.c'
+ PropFld { 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=2
+ AlwaysBuild=2
+ GenAsm=2
+ AsmAsm=2
+ PublicsOnly=2
+ StopCode=11
+ CustArgs ()
+ LibMods ()
+ ADSCCFLG { 2,82,85,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN ()
+ ADSCUDEF ()
+ ADSCINCD ()
+EndOpt
+

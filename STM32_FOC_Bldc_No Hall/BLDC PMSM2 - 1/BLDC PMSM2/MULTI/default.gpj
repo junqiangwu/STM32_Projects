@@ -1,0 +1,26 @@
+#!gbuild
+primaryTarget=arm_standalone.tgt
+#component top_level_project
+[Project]
+	-bsp stm32
+	-object_dir=objs
+	:sourceDir=.
+	--ee
+	:sourceDir=../src
+	:sourceDir=../../STM32F10XFWLIB/src
+	:sourceDir=../..
+	-I../../STM32F10XFWLIB/inc
+	-I../inc
+	-I../
+	-I.
+	--inline_tiny_functions
+	-Omemfuncs
+	-Ostrfuncs
+	-Ounroll
+	-Olink
+	-align8
+	-Omax
+	-g
+src\STM32_PMSM_FOC.gpj		[Program]
+inc\Parameters header files.gpj		[Project]
+tgt\resources.gpj		[Project]

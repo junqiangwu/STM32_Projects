@@ -1,0 +1,177 @@
+<FOCGUI >
+<ARGS >
+<TemplatesDir >C:\Program Files\STMicroelectronics\FOCGUI Application\Templates\</TemplatesDir>
+<BuildLogFile >C:\Documents and Settings\Administrator\×ÀÃæ\motor\BuildLog.xml</BuildLogFile>
+<BuildDateTime >08/26/13 - 21:58:31</BuildDateTime>
+</ARGS>
+<FOCDATA >
+<CONFIGURATION >
+<SPEEDFEEDBACK >
+<QuadratureEncoder >FALSE</QuadratureEncoder>
+<HallSensors >FALSE</HallSensors>
+<NoSpeedSensors >TRUE</NoSpeedSensors>
+</SPEEDFEEDBACK>
+<FOCMETHODS >
+<FluxWeakening >TRUE</FluxWeakening>
+<FeedForwardCurrentRegulation >FALSE</FeedForwardCurrentRegulation>
+<InternalPMSMMaximunTxAStrategy >FALSE</InternalPMSMMaximunTxAStrategy>
+</FOCMETHODS>
+<CURRENTSENSINGTECHNIQUE >
+<IsolatedCurrentSensors >FALSE</IsolatedCurrentSensors>
+<ThreeShuntResistors >FALSE</ThreeShuntResistors>
+<SingleShuntResistor >TRUE</SingleShuntResistor>
+</CURRENTSENSINGTECHNIQUE>
+<BRAKETECHNIQUE >
+<EnableDCBusBrakeResistorManagement >FALSE</EnableDCBusBrakeResistorManagement>
+</BRAKETECHNIQUE>
+<PIDDIFFERENTIALTERMS >
+<CheckToEnableDifferentialTerm >FALSE</CheckToEnableDifferentialTerm>
+</PIDDIFFERENTIALTERMS>
+</CONFIGURATION>
+<MOTORANDHW >
+<CURRENTSENSINGNETWORK >
+<ShuntResistorValue min='0.001' max='10.000'>0.020</ShuntResistorValue>
+<AmplificationGain min='1.00' max='100.00'>11.00</AmplificationGain>
+<ICSGain min='0.001' max='10.000'>1.000</ICSGain>
+</CURRENTSENSINGNETWORK>
+<MB459BOARDPROTECTION >
+<OverTemperatureThreshold min='30' max='85'>85</OverTemperatureThreshold>
+<TemperatureHysteresis min='3' max='15'>5</TemperatureHysteresis>
+<UnderVoltageThreshold min='15' max='32'>18</UnderVoltageThreshold>
+<OverVoltageThreshold min='18' max='371'>32</OverVoltageThreshold>
+</MB459BOARDPROTECTION>
+<MOTORCHARACTERISTICS >
+<R min='0.01' max='150.00'>1.50</R>
+<Ld min='0.01' max='0.60'>0.60</Ld>
+<Lq min='0.01' max='500.00'>0.60</Lq>
+<RatedCurrent min='0.05' max='7.50'>2.00</RatedCurrent>
+<Ke min='0.1' max='500.0'>6.2</Ke>
+<PolePairs min='1' max='100'>2</PolePairs>
+<MotorMaxSpeed min='1' max='190000'>3600</MotorMaxSpeed>
+</MOTORCHARACTERISTICS>
+<VOLTAGESENSINGNETWORK >
+<DCBusVoltage min='3.0' max='350.0'>24.0</DCBusVoltage>
+<DCBusVoltagePartitioning min='0.0001' max='1.0000'>0.0080</DCBusVoltagePartitioning>
+</VOLTAGESENSINGNETWORK>
+</MOTORANDHW>
+<CONTROLSETTINGS >
+<DRIVINGSETTINGS >
+<PWMFrequency min='4000' max='32000'>14400</PWMFrequency>
+<DeadTime min='500' max='3500'>800</DeadTime>
+</DRIVINGSETTINGS>
+<SPEEDREGULATIONCONTROLRATE >
+<SpeedRegulationControlRate >2.0</SpeedRegulationControlRate>
+</SPEEDREGULATIONCONTROLRATE>
+<TORQUEANDFLUXCONTROLRATE >
+<TorqueAndFluxControlRate >1</TorqueAndFluxControlRate>
+</TORQUEANDFLUXCONTROLRATE>
+<TORQUEANDFLUXCONTROLLER >
+<CutOffFrequency min='100' max='15000'>6000</CutOffFrequency>
+<TORQUE >
+<TorquePDividend min='0' max='32767'>2304</TorquePDividend>
+<TorquePDivisor min='1' max='32768'>1024</TorquePDivisor>
+<TorqueIDividend min='0' max='32767'>3200</TorqueIDividend>
+<TorqueIDivisor min='1' max='32768'>8192</TorqueIDivisor>
+<TorqueDDividend min='0' max='32767'>100</TorqueDDividend>
+<TorqueDDivisor min='1' max='32768'>8192</TorqueDDivisor>
+<TorqueInitRef min='0.00' max='2.00'>0.40</TorqueInitRef>
+</TORQUE>
+<FLUX >
+<FluxPDividend min='0' max='32767'>2304</FluxPDividend>
+<FluxPDivisor min='1' max='32768'>1024</FluxPDivisor>
+<FluxIDividend min='0' max='32767'>3200</FluxIDividend>
+<FluxIDivisor min='1' max='32768'>8192</FluxIDivisor>
+<FluxDDividend min='0' max='32767'>100</FluxDDividend>
+<FluxDDivisor min='1' max='32768'>8192</FluxDDivisor>
+<FluxInitRef min='0.00' max='2.00'>0.00</FluxInitRef>
+</FLUX>
+</TORQUEANDFLUXCONTROLLER>
+<SPEEDCONTROLLER >
+<SpeedPDividend min='0' max='32767'>1000</SpeedPDividend>
+<SpeedPDivisor min='1' max='32768'>16</SpeedPDivisor>
+<SpeedIDividend min='0' max='32767'>700</SpeedIDividend>
+<SpeedIDivisor min='1' max='32768'>256</SpeedIDivisor>
+<SpeedDDividend min='0' max='32767'>0</SpeedDDividend>
+<SpeedDDivisor min='1' max='32768'>16</SpeedDDivisor>
+<SpeedInitRef min='1' max='3600'>1500</SpeedInitRef>
+</SPEEDCONTROLLER>
+<FLUXWEAKENINGCONTROLLER >
+<FluxWeakeningControllerPDividend min='1' max='32767'>3000</FluxWeakeningControllerPDividend>
+<FluxWeakeningControllerPDivisor min='1' max='32768'>32768</FluxWeakeningControllerPDivisor>
+<FluxWeakeningControllerIDividend min='1' max='32767'>5000</FluxWeakeningControllerIDividend>
+<FluxWeakeningControllerIDivisor min='1' max='32768'>32768</FluxWeakeningControllerIDivisor>
+<FluxWeakeningControllerVoltageLimit min='60.0' max='100.0'>98.5</FluxWeakeningControllerVoltageLimit>
+</FLUXWEAKENINGCONTROLLER>
+</CONTROLSETTINGS>
+<DEBUG >
+<AUXILIARYSPEEDFEEDBACK >
+<ViewEncoderFeedback >TRUE</ViewEncoderFeedback>
+<ViewHallSensorsFeedback >FALSE</ViewHallSensorsFeedback>
+<None >FALSE</None>
+<EnableObserverGainTuning >FALSE</EnableObserverGainTuning>
+</AUXILIARYSPEEDFEEDBACK>
+<EnableDACFunctionality >TRUE</EnableDACFunctionality>
+<FLUXANDTORQUEPIDTUNINGMODALITY >
+<EnableModality >FALSE</EnableModality>
+<SquareWavePeriod min='1' max='65535'>2000</SquareWavePeriod>
+</FLUXANDTORQUEPIDTUNINGMODALITY>
+</DEBUG>
+<SPEEDFEEDBACK >
+<STARTUPSETTINGS >
+<SpeedRampDuration min='1' max='65535'>1500</SpeedRampDuration>
+<SpeedRampFinalValue min='0' max='65535'>2700</SpeedRampFinalValue>
+<CurrentRampInitialValue min='0.00' max='0.70'>0.60</CurrentRampInitialValue>
+<CurrentRampFinalValue min='0.60' max='2.00'>0.70</CurrentRampFinalValue>
+<CurrentRampDuration min='1' max='1500'>350</CurrentRampDuration>
+<ConsinstencyThreshold min='1' max='65535'>60</ConsinstencyThreshold>
+</STARTUPSETTINGS>
+<SPEEDMEASUREMENTERRORSMANAGEMENT >
+<VarianceThreshold min='0.00' max='100.00'>6.25</VarianceThreshold>
+<MinMechanicalSpeed min='1' max='30000'>60</MinMechanicalSpeed>
+<MaxErrorsNumber min='1' max='255'>3</MaxErrorsNumber>
+</SPEEDMEASUREMENTERRORSMANAGEMENT>
+<IncludeAlignmentBeforeStartUp >FALSE</IncludeAlignmentBeforeStartUp>
+<ALIGNMENTSETTINGS >
+<Duration min='1' max='65535'>700</Duration>
+<AlignmentAngle min='0' max='359'>90</AlignmentAngle>
+<Current min='0.05' max='2.00'>1.95</Current>
+</ALIGNMENTSETTINGS>
+<APRIORICOMPUTEDGAINS >
+<GainsComputation >TRUE</GainsComputation>
+<K1 min='-2147483648' max='2147483647'>-19725</K1>
+<K2 min='-2147483648' max='2147483647'>74034</K2>
+<PLLPDividend min='0' max='32767'>266</PLLPDividend>
+<PLLPDivisor min='16384' max='16384'>16384</PLLPDivisor>
+<PLLIDividend min='0' max='32767'>52</PLLIDividend>
+<PLLIDivisor min='262144' max='262144'>262144</PLLIDivisor>
+</APRIORICOMPUTEDGAINS>
+</SPEEDFEEDBACK>
+<AUXSPEEDFEEDBACK >
+<QUADRATUREENCODERCHARACTERISTICS >
+<PulsesPerRevolution min='1' max='65536'>400</PulsesPerRevolution>
+</QUADRATUREENCODERCHARACTERISTICS>
+<SPEEDMEASUREMENTERRORSMANAGEMENT >
+<MinMechanicalSpeed min='1' max='5000'>60</MinMechanicalSpeed>
+<MaxMechanicalSpeed min='60' max='200000'>5000</MaxMechanicalSpeed>
+<MaxErrorsNumber min='1' max='255'>3</MaxErrorsNumber>
+<FIFODepth min='1' max='128'>8</FIFODepth>
+</SPEEDMEASUREMENTERRORSMANAGEMENT>
+<ALIGNMENTSETTINGS >
+<Duration min='1' max='65535'>700</Duration>
+<AlignmentAngle min='0' max='359'>90</AlignmentAngle>
+<Current min='0.05' max='2.00'>1.95</Current>
+</ALIGNMENTSETTINGS>
+</AUXSPEEDFEEDBACK>
+<CURRENTSENSING >
+<NOISEPARAMETERS >
+<Trise min='0' max='10000'>2550</Trise>
+</NOISEPARAMETERS>
+<ADCONVERTERSAMPLINGTIME >
+<ADConverterSamplingTime >TRUE</ADConverterSamplingTime>
+</ADCONVERTERSAMPLINGTIME>
+<MAXIMUMAVAILABLEMODULATIONINDEX >
+<MaximumAvailableModulationIndex min='72' max='100'>98</MaximumAvailableModulationIndex>
+</MAXIMUMAVAILABLEMODULATIONINDEX>
+</CURRENTSENSING>
+</FOCDATA>
+</FOCGUI>
