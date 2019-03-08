@@ -1,6 +1,7 @@
 ## STM32
 
 >基于STM32的项目代码和电路原理图
+> BLDC  PMSM  MPU6050_DMP motor_control 
 
 1.`Bldc_Hall_STM32F103`**基于STM32F103的三相电机控制程序，霍尔传感器版本**
 
